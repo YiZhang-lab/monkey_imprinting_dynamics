@@ -3,7 +3,8 @@
 my ($file, $base_num, $read_num, $total_bin) = @ARGV;
 
 if((not defined $file) | (not defined $base_num) | (not defined $read_num) | ($total_bin <= 0)) {
-	die "./usage file minimal_base_number_per_reads minimal_read_number_per_region bin_number_from_0_to_1_perc" or die $!;
+	die "
+	./usage file minimal_base_number_per_reads minimal_read_number_per_region bin_number_from_0_to_1_perc \n";
 }
 
 open(FILE, $file) or die $!;
