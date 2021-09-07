@@ -1,5 +1,7 @@
 # monkey_imprinting_dynamics
 
+[![DOI](https://www.zenodo.org/badge/397642557.svg)](https://www.zenodo.org/badge/latestdoi/397642557)
+
 The package containing TARSII and CARSII methods related to article:
 doi:
 
